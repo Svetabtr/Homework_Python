@@ -10,3 +10,15 @@ elif day == 6 or day == 7:
     print('Это ВЫХОДНОЙ!')
 else:
     print('Это не выходной')
+
+
+# 2 вариант
+
+day = int(input("Введите цифру числа недели: "))
+
+if day in range(1, 6):
+    print('Это не выходной')
+elif day in range(6, 8):
+    print('Это ВЫХОДНОЙ!')
+else:
+    print('Такого дня недели не существует')
